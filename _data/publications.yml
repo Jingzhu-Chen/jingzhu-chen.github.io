@@ -1,22 +1,29 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "ConvScale: Conversational Interviews for Scale-Aligned Measurement"
+    authors: Peinuan Qin, <strong>Jingzhu Chen</strong>, Yitian Yang, Han Meng, Zicheng Zhu, Yi-Chieh Lee
+    conference_short: CHI EA 2026
+    conference: ACM Conference on Human Factors in Computing Systems, 2026.
+    image: ./assets/img/conscale.png 
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "ChatLearn: Leveraging AI to Transform Non-Native Speaker Communication Challenges as Language Learning Opportunities"
+    authors: Peinuan Qin, Yugin Tan, <strong>Jingzhu Chen</strong>, Nattapat Boonprakong, Zicheng Zhu, Naomi Yamashita, Yi-Chieh Lee
+    conference_short: CHI 2026
+    conference: ACM Conference on Human Factors in Computing Systems, 2026.
+    arxiv: https://arxiv.org/abs/2601.17837
+    image: ./assets/img/chatlearn.png
+
+  - title: "AI Personalization Paradox: Reading Highlights for Personalized AI-Assisted Writing Increases Engagement but Undermines Autonomy and Ownership"
+    authors: Peinuan Qin, Chi-Lan Yang, Nattapat Boonprakong, <strong>Jingzhu Chen</strong>, Yugin Tan, Yi-Chieh Lee
+    conference_short: CHI 2026
+    conference: ACM Conference on Human Factors in Computing Systems, 2026.
+    arxiv: https://arxiv.org/abs/2601.17846
+    image: ./assets/img/AIpersonalization.png
+
+  - title: "GistVis: Automatic generation of word-scale visualizations from data-rich documents"
+    authors: Ruishi Zou, Yinqi Tang, <strong>Jingzhu Chen</strong>, Siyu Lu, Yan Lu, Yingfan Yang, Chen Ye
+    conference_short: CHI 2025
+    conference: ACM Conference on Human Factors in Computing Systems, 2025.
+    page: https://dl.acm.org/doi/full/10.1145/3706598.3713881
+    award: Honorable Mention
+    image: ./assets/img/gistvis.png
