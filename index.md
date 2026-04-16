@@ -9,7 +9,7 @@ layout: homepage
 
 ## Research Interests 💡
 
-My research interests lie in Human-Computer Interaction (HCI) and Human-Centered AI, particularly in **<u>Conversational AI</u>** and **<u>AI for Education</u>**.  
+My research interests lie in Human-Computer Interaction (HCI) and Human-Centered AI, particularly in **<u>Conversational AI</u>** and **<u>AI for Online Education</u>**.  
 ✨ Looking for opportunities to create impactful, human-centered research!
 
 

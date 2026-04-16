@@ -5,6 +5,7 @@ main:
     conference_short: CHI EA 2026
     conference: ACM Conference on Human Factors in Computing Systems, 2026.
     image: ./assets/img/conscale.png 
+    page: https://dl.acm.org/doi/full/10.1145/3772363.3798684
 
   - title: "ChatLearn: Leveraging AI to Transform Non-Native Speaker Communication Challenges as Language Learning Opportunities"
     authors: Peinuan Qin, Yugin Tan, <strong>Jingzhu Chen</strong>, Nattapat Boonprakong, Zicheng Zhu, Naomi Yamashita, Yi-Chieh Lee
