@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <title>Misc | {{ site.title }}</title>
+
+    <link rel="icon" href="{{ '/assets/img/cat.png' | relative_url }}" type="image/png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    {% if site.font == "Sans Serif" %}
+    <link rel="stylesheet" href="{{ '/assets/css/font_sans_serif.css' | relative_url }}">
+    {% else %}
+    <link rel="stylesheet" href="{{ '/assets/css/font.css' | relative_url }}">
+    {% endif %}
+    {% if site.auto_dark_mode %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
+    {% else %}
+    <link rel="stylesheet" href="{{ '/assets/css/style-no-dark-mode.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/publications-no-dark-mode.css' | relative_url }}">
+    {% endif %}
+
+    <style>
+      .misc-container {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 4em 30px 60px;
+      }
+      .podcast-cover {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border: 4px solid white;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+        flex-shrink: 0;
+      }
+      .podcast-info {
+        padding-left: 22px;
+      }
+      .podcast-name a {
+        font-weight: bold;
+        font-size: 1.05rem;
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+      .podcast-name a:hover {
+        text-decoration: underline;
+      }
+      .episode-label {
+        margin-top: 8px;
+        font-size: 0.85rem;
+        color: #888;
+      }
+      .episode-list {
+        margin: 4px 0 0 0;
+        padding-left: 18px;
+      }
+      .episode-list li {
+        margin-bottom: 3px !important;
+        min-height: 0 !important;
+        font-size: 0.9rem;
+      }
+      .episode-list li a {
+        color: inherit;
+        text-decoration: none;
+      }
+      .episode-list li a:hover {
+        text-decoration: underline;
+      }
+      @media (prefers-color-scheme: dark) {
+        .podcast-cover {
+          border-color: white;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+        }
+        .episode-label {
+          color: #aaa;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a href="{{ '/' | relative_url }}" style="position:fixed;top:16px;right:40px;z-index:999;display:block;">
+      <img src="{{ '/assets/img/cat.png' | relative_url }}" width="60" height="60" alt="home" />
+    </a>
+    <div class="misc-container">
+      {{ content }}
+    </div>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  </body>
+</html>
