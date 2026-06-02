@@ -4,7 +4,7 @@ layout: misc
 
 # A little corner for what I find fascinating ✨
 
-## What I Love to Listen 🎙️:
+## Podcast 🎙️:
 
 <div class="publications">
 <ol class="bibliography">
