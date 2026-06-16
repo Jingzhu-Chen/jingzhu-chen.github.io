@@ -21,9 +21,9 @@ email: jingzhuchen03@gmail.com
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/me.jpg
-favicon: ./assets/img/favicon.jpg
-favicon_dark: ./assets/img/favicon.jpg
+avatar: ./assets/img/homepage.JPG
+favicon: ./assets/img/homepage_cute.jpg
+favicon_dark: ./assets/img/homepage_cute.jpg
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
