@@ -4,8 +4,7 @@ layout: homepage
 
 ## About Me 🐈
 
-👋 Hello! I am Jingzhu, a final-year undergraduate student majoring in Data Science at [the School of Computer Science and Technology, Tongji University](https://cs.tongji.edu.cn/). Currently, I am a research intern at the [AI4SG Lab](https://www.ai4sg.org/about), NUS working under the supervision of [Prof. Yi-Chieh (EJ) Lee](https://www.yclee.net/) and mentorship from PhD candidate [Peinuan Qin](https://peinuanqin-nus.github.io/#/).
-
+👋 Hello! I’m Jingzhu, a research assistant at the [AI4SG Lab](https://www.ai4sg.org/about) at the National University of Singapore (NUS). I work under the supervision of [Prof. Yi-Chieh (EJ) Lee](https://www.yclee.net/) and am mentored by PhD candidate [Peinuan Qin](https://peinuanqin-nus.github.io/#/). Before joining the lab, I received my bachelor’s degree from the [School of Computer Science and Technology at Tongji University](https://cs.tongji.edu.cn/) in 2026.
 
 ## Research Interests 💡
 
